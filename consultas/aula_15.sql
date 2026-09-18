@@ -1,0 +1,2 @@
+SELECT (' O faturamento medio foi ' || CAST(ROUND(AVG(faturamento), 2) AS TEXT)) -- seleciona a coluna faturamento e faz uma media e deixando com apenas 2 casas decimais, e convertendo seu tipo para string alem de concatenar as informações
+FROM faturamento -- da tabela faturamento
